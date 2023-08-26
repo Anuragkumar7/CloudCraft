@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+    <fieldset>
+        
+        <h1 style="text-align: center; color: #f2f2f2;" >Weather App</h1>
+    
+      <form action="/" method="post" class="centered-form">
+        <label class="heading" for="cityInput">City Name:</label>
+        <input class="ghost-input" type="text" name="city" />
+        <button class="ghost-button" type="submit">Search Weather</button>
+      </form>
+      <% if(weatherdata !== null){ %>
+        <p class="weatherreport"><%= weatherdata %></p>
+      <% } %>
+
+      <% if(error !== null){ %>
+        <p><%= error %></p>
+      <% } %>
+    </fieldset>
+
+    </div>
+    <script>
+      function toggleBackgroundImage() {
+  const bodyElement = document.body;
+  bodyElement.classList.toggle('body-alternate');
+}
+
+// Change background image every 5 seconds
+setInterval(toggleBackgroundImage, 5000); // Change every 5000 milliseconds (5 seconds)
+
+    </script>
+  </body>
+</html>

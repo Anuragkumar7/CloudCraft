@@ -1,0 +1,119 @@
+/* body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* .centered-form {
+    display: inline-block;
+    text-align: left;
+    padding: 80px 40px;
+    border: 1px solid #2004f8;
+    border-radius: 5px;
+    background-color: #4d99e7;
+    box-shadow: 10px 10px 10px rgba(33, 32, 32, 0.879);
+} */
+
+.city {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    border-bottom: 2px solid #000000;
+
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #87CEEB;
+    font-weight: 600;
+}
+
+.heading {
+    font-weight: 600;
+    padding-right: 10px;
+}
+.weatherreport{
+    color: rgb(241, 20, 20);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    body {
+        width: 800px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('../img/25501.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.3s;
+
+    }
+    .body-alternate {
+        width: 800px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('../img/23284.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.3s;
+      }
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  fieldset {
+    display: block;
+    border: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    padding: 30px;
+  }
+  .ghost-input, p {
+    display: block;
+    font-weight:300;
+    width: 100%;
+    font-size: 25px;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: inherit;
+    font-family: Open Sans,Verdana;
+    padding: 10px 15px;
+    margin: 30px 0px;
+
+  }
+  .ghost-input:focus {
+    border-bottom:1px solid #ddd;
+  }
+  .ghost-button {
+    background-color: transparent;
+    border:2px solid #ddd;
+    padding:10px 30px;
+    width: 100%;
+    min-width: 350px;
+    margin-top: 10px;
+  }
+  .ghost-button:hover {
+    border:2px solid #515151;
+  }
+.heading{
+color: #ffffff;
+    font-size: 20px;
+}
