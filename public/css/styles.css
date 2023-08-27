@@ -1,24 +1,15 @@
-/* body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/25501.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-} */
+    transition: 0.3s;
 
-/* .centered-form {
-    display: inline-block;
-    text-align: left;
-    padding: 80px 40px;
-    border: 1px solid #2004f8;
-    border-radius: 5px;
-    background-color: #4d99e7;
-    box-shadow: 10px 10px 10px rgba(33, 32, 32, 0.879);
-} */
-
+}
 .city {
     border: none;
     outline: none;
@@ -44,18 +35,7 @@ button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-    body {
-        width: 800px;
-        margin: 0 auto;
-        padding-bottom: 70px;
-        font-family: 'Open Sans', sans-serif;
-        background-image: url('../img/25501.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: 0.3s;
-
-    }
+  
     .body-alternate {
         width: 800px;
         margin: 0 auto;
